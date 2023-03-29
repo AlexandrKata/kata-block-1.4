@@ -1,0 +1,91 @@
+* {
+    font-family: "TT Lakes Medium", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 10000px;
+}
+
+.mobile-menu {
+    max-width: 320px;
+    padding: 20px 24px 32px 24px;
+    position: fixed;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__item:nth-of-type(2) {
+    margin-right: 70px;
+    margin-left: 10px;
+}
+
+.menu-list {
+    list-style-type: none;
+    padding-top: 50px;
+}
+
+.menu-list__item {
+    padding-bottom: 32px;
+}
+
+.menu-list__item:last-of-type {
+    padding-bottom: 0;
+}
+
+.menu-list__item a {
+    text-decoration: none;
+}
+
+.footer {
+    padding-top: 270px;
+}
+
+.footer__icons {
+    display: flex;
+    gap: 16px;
+}
+
+.footer__email {
+    display: block;
+    padding-top: 16px;
+    text-decoration: none;
+}
+
+.footer__phone {
+    display: block;
+    padding-top: 15px;
+    text-decoration: none;
+    color: #1B1C21;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.footer-lang {
+    padding-top: 40px;
+}
+
+.footer-lang a {
+    text-decoration: none;
+}
+
+.menu-list__item a:hover,
+.footer__email:hover,
+.footer-lang a:hover {
+    text-decoration: underline;
+}
+
+.header__item:hover,
+.footer__icons a:hover {
+    opacity: 0.7;
+}
+
+.footer__phone:hover {
+    color: blue;
+}
